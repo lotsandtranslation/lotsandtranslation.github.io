@@ -1,12 +1,18 @@
 html {
-    font-family: "Poppins";
-    src: local("Poppins Medium"),local("Poppins-Medium"), url("https://fonts.gstatic.com/s/poppins/v5/pxiByp8kv8JHgFVrLGT9Z1xlFQ.woff2") format("woff2");
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
-p {
+
+.imprint {
     text-align: justify;
+    font-size: 2rem;
+}
+
+.index {
+    text-align: left;
+    font-size: 4rem;
 }
 
 a, a:visited, a:hover, a:active {
@@ -20,4 +26,36 @@ td, th {
 .inverted {
     color: white;
     background-color: black;
+    font-size: 4vw;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+#email {
+    font-size: 2rem;
+    font-family: 'Roboto Mono';
+    font-weight: 500;
+}
+
+.dot {
+    font-size: 25rem;
+    font-family: 'Ubuntu Mono', monospace;
+    color: #efcfaf;
+
+}
+#footer {
+    font-size: 2rem;
+    font-weight: 400;
+}
+img {
+    size: 20%;
+}
+
+.ampersand {
+    font-family: "Roboto Mono";
+    font-style: normal;
+    font-weight: 500;
+    unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
